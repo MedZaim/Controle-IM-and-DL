@@ -2,6 +2,14 @@
 
 This README explains how to run predictions using the trained models from Étape 1, both via the notebook `partie2.ipynb` and a simple CLI script. It also summarizes the project constraints for submission.
 
+## Source Code (GitHub)
+
+Le code source de l’étape 2 est disponible sur GitHub:
+
+- https://github.com/MedZaim/Controle-IM-and-DL/tree/master/etape2
+
+Utilisez ce lien pour consulter l’historique, les scripts et la structure en ligne.
+
 ## Project Structure
 
 - `../etape1/models/` — contains saved model weights:
@@ -80,13 +88,6 @@ Make sure the script uses the same weight paths as the notebook:
 - `../etape1/models/ViT-1.pth`
 - `../etape1/models/ViT-2.pth`
 
-## Submission Checklist
-
-Compress and send `Nom_Prénom_Master.zip` containing:
-- `models/` folder with the four `.pth` weight files (same names as above).
-- `predict.py` script that loads these models and performs prediction on a given image path.
-- `README.md` (this file) explaining setup and execution.
-
 ## Troubleshooting
 
 - ModuleNotFoundError: `No module named 'models'`
@@ -100,4 +101,3 @@ Compress and send `Nom_Prénom_Master.zip` containing:
 
 - Binary labels: 0 → Saine, 1 → Malade.
 - The architectures and preprocessing must match between training (Étape 1) and inference (Étape 2).
-
